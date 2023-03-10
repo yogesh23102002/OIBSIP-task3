@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TempxConvo</title>
+    <link rel="stylesheet" href="styling.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <h1> Ｔｅｍｐ Ｘ Ｃｏｎｖｏ </h1>
+    <div class="temp1">
+        <div class="temp2">
+            <span class="temp3">
+                <span class="paragraph">
+                    Enter Temp :
+                </span>
+            <input id="tempInput" type="number" placeholder="Enter Temp">
+            </span>
+            <div>
+            <span class="units">
+                <select id="temp1" aria-label="Default example">
+                    <option selected>From</option>
+                    <option value="f"> Fahrenheit-F</option>
+                    <option value="c">Celsuis-C</option>
+                    <option value="k">Kelvin-K</option>
+                </select>
+            </span>
+            <span class="units">
+                <select id="temp2" aria-label="Default example">
+                    <option selected>To</option>
+                    <option value="f"> Fahrenheit-F</option>
+                    <option value="c">Celsuis-C</option>
+                    <option value="k">Kelvin-K</option>
+                </select>
+            </span>
+            </div>
+            <div class="btn">
+                <button onclick="tempConverter()">-Convert-</button>
+            </div>
+            <div class="result">
+                <span>Display: </span>
+                <input id="result" type="text" placeholder="Output">
+            </div>
+        </div>
+    </div>
+<footer>
+        <span>Created By <a href="https://www.linkedin.com/in/yogesh-chakravarthy-a-4b6694213">Yogesh</a></span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

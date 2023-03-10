@@ -1,0 +1,125 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 700px;
+    background-color: rgb(231, 216, 9);
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    color: rgb(3, 0, 15);
+    padding: 10px;
+    font-size: 45px;
+    
+}
+
+.temp1 {
+    border-color: rgb(10, 10, 10);
+    border-width: 1x;
+    border-style: solid;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(211, 199, 30);
+    padding-bottom: 30px;
+    margin-top: 40px;
+    font-family: 'Montserrat';
+}
+
+.temp2 {
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.temp3 {
+    margin-top: 30px;
+}
+
+.paragraph {
+    margin: 0%;
+    padding: 15px;
+    padding: 10px;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+   
+    font-family: 'Montserrat';
+}
+
+input {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(13, 13, 14);
+    border-width: 3px;
+    font-size: 1em;
+    padding: 5px;
+    font-family: 'Montserrat';
+}
+
+select {
+    background-color: rgba(226, 209, 20, 0.905);
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: 3px rgb(211, 199, 30);
+    outline: none;
+    font-size: 1.2em;
+    margin-top: 45px;
+}
+
+option {
+    border-width: 2px;
+    border-radius: 8px;
+    background-color: rgb(228, 247, 25);
+}
+
+.btn {
+    margin: 20px;
+}
+
+button {
+    font-family: 'Montserrat';
+    font-size: small;
+    font-weight: bold;
+    padding: 15px;
+    margin: 20px;
+    font-size: 2em;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgba(240, 236, 13, 0.973);
+    border-radius: 50px;
+    border: 1px;
+    border-style: solid;
+}
+
+.btn :hover {
+    background-color: rgb(230, 22, 22);
+    cursor: pointer;
+}
+
+.result>span {
+    margin: 0%;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Montserrat';
+}
+footer{
+    background: rgb(0, 0, 0);
+    padding: 15px 23px;
+    width: 1216px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+footer span a{
+    color: rgb(0, 255, 34);
+    text-decoration: none;
+}
+footer span a:hover{
+    color: rgb(201, 20, 29);
+}
